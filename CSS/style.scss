@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
 }
+
+@import 'partials/colors';
 
 body {
     
@@ -11,3 +14,29 @@ body {
 
     background-color: #1a1a1a;
 }
+
+img, svg{
+    display:block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:$Whithe;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+p{
+    font-size: 16px;
+    color: $gray-light;
+    letter-spacing: 1px;
+    line-height: 140%;
+
+}
+
+@import 'partials/Layout';
+@import 'partials/Menu';
+@import 'partials/animations';
