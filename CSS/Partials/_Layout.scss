@@ -20,9 +20,19 @@
     align-items: flex-start;
 }
 
-.container-item-2{
-   
+.flex{
+    display: flex;
 }
+
+.w-auto{
+    width: auto;
+}
+
+.aling-itens-center{
+    align-items: center;
+}
+
+
 .spiderman{
     width: 150%;
     transform: translate3d(-170px,0,0)    ;
